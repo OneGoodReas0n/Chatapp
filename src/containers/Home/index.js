@@ -1,10 +1,14 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './home.scss'
+import Header from '../../components/header'
 
 export default () => {
-    return(
+
+    return (
         <div>
-            <h1>Home page</h1>
+            <div>
+                <Header />
+            </div>
         </div>
     )
 }
