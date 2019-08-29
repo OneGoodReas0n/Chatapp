@@ -1,0 +1,14 @@
+.form {
+  width: 300px;
+  margin: 0 auto;
+  margin-top: 150px;
+
+  .error {
+    color: var(--red);
+    background-color: var(--light);
+    padding: 8px 10px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-family: "Roboto";
+  }
+}
